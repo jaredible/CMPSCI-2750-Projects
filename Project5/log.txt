@@ -1,0 +1,101 @@
+commit ac00049b1d04eea79f23ba22cb3d191008e1b603
+Author: Jared Diehl <jareddiehl96@gmail.com>
+Date:   Tue May 7 17:26:23 2019 -0500
+
+    finishing touches
+
+commit 354617df21eb2a40e17306ea253c1929c07e7ac9
+Author: Jared Diehl <jareddiehl96@gmail.com>
+Date:   Mon May 6 12:31:48 2019 -0500
+
+    finished adding comments
+
+commit cc4b1bf41d459cdbbf37d21429df2f2a64a3a38f
+Author: Jared Diehl <jareddiehl96@gmail.com>
+Date:   Sun May 5 23:48:27 2019 -0500
+
+    adding comments
+
+commit 0827fccc47d3e996d6be7589a32e31a9965b52be
+Author: Jared Diehl <jareddiehl96@gmail.com>
+Date:   Sun May 5 16:23:17 2019 -0500
+
+    added project info
+
+commit e2535bf923e8d2fbec07c88e698415ea4533c481
+Author: Jared Diehl <jareddiehl96@gmail.com>
+Date:   Sat May 4 16:05:32 2019 -0500
+
+    added helpful outputs
+
+commit 162983b37932f21bf092ef452942f62a15558cd7
+Author: Jared Diehl <jareddiehl96@gmail.com>
+Date:   Sat May 4 16:00:17 2019 -0500
+
+    added helpful outputs
+
+commit 768e1919363b6a4af02120408e23d98ac35b0397
+Author: Jared Diehl <jareddiehl96@gmail.com>
+Date:   Sat May 4 15:53:13 2019 -0500
+
+    refactored shared memory ping pong
+
+commit 0da227d807e0bb66cae3b45a12f178620148b651
+Author: Jared Diehl <jareddiehl96@gmail.com>
+Date:   Sat May 4 15:51:51 2019 -0500
+
+    refactored shared memory access
+
+commit 8f11d8ca4353fb1a1f2e908fc2a91f0ae20757da
+Author: Jared Diehl <jareddiehl96@gmail.com>
+Date:   Sat May 4 15:51:03 2019 -0500
+
+    refactored getPreviousPrime function
+
+commit bd6aa7da3b3e7ae0604f32a9efd0dd59844c533e
+Author: Jared Diehl <jareddiehl96@gmail.com>
+Date:   Sat May 4 15:48:51 2019 -0500
+
+    refactored isPrime function
+
+commit cdcc1eedf6de780c22764411eab5dda6bf8a2def
+Author: Jared Diehl <jareddiehl96@gmail.com>
+Date:   Sat May 4 15:46:27 2019 -0500
+
+    refactored shared memory ping pong
+
+commit ce3b1ca7b22ef2f73e51a5e1847a9885cc556a54
+Author: Jared Diehl <jareddiehl96@gmail.com>
+Date:   Sat May 4 15:45:06 2019 -0500
+
+    refactoring getopt
+
+commit 684b7fc209597972b7a5fb029ffd03ad2cdf4fc4
+Author: Jared Diehl <jareddiehl96@gmail.com>
+Date:   Sat May 4 15:44:35 2019 -0500
+
+    refactoring forking
+
+commit 777bdf044d3e0f53454c02b922c7df70e08cc826
+Author: Jared Diehl <jareddiehl96@gmail.com>
+Date:   Sat May 4 15:43:36 2019 -0500
+
+    refactoring shared memory access
+
+commit 1e048ed91b4e991b8395838f4759aa6597ec7bc0
+Author: Jared Diehl <jareddiehl96@gmail.com>
+Date:   Sat May 4 15:38:40 2019 -0500
+
+    checking for no prime found
+
+commit dd7685e29c45f8b9dc2d941f30f125cfc1aecc1a
+Author: Jared Diehl <jareddiehl96@gmail.com>
+Date:   Sat May 4 15:31:26 2019 -0500
+
+    working prototype finished
+
+commit 46b08cff1fd0e283a93bbf1b41ab07b5b33dd6bf
+Author: Diehl <jmddnb@delmar.umsl.edu>
+Date:   Wed May 1 00:24:54 2019 -0500
+
+    Initial commit

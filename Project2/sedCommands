@@ -1,0 +1,28 @@
+1)	sed -n 's/MWH/MRH/pig' textfile
+Replaces MWH, case insensitive, for all occurences in a line with MRH and prints changes.
+
+2)	sed -n '/\(\/\| \)[^/\?%:|"<>. ]\+\.jpg/p;/^[^/\?%*:|"<>. ]\+\.jpg/p;' textfile
+Will print any line containing a legal filename ending in .jpg. There is a group around the filename so you can obtain it.
+
+Matches:
+id="/img/img.jpg"
+ file.jpg 
+file.jpg
+dir/file.jpg
+a.jpg
+1.jpg
+ 69.jpg
+
+Doesn't match:
+%test.jpg
+test?test.jpg
+/test/:test.jpg
+
+2a)	sed -n 's/\(\(\/\| \)[^/\?%:|"<>. ]\+\)\(\.jpg\)/\1.jpeg/pg;s/^\([^/\?%*:|"<>. ]\+\)\(\.jpg\)/\1.jpeg/pg;' textfile
+Replaces all filenames ending in .jpg with .jpeg and prints changes. There is a group around the filename and another around the .jpg.
+
+3)	sed -n '/^[a-zA-Z0-9].*\.html$/!p' textfile
+Matches all lines starting with a and ending in .html then prints lines that don't match.
+
+4)	sed -n 's/\([0-9]\{3\}\)\([0-9]\{3\}\)\([0-9]\{4\}\)/\(\1\)\2\-\3/pg' textfile
+Replaces a phone number with format 3141112222 with (314)111-222 and prints changes.
