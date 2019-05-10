@@ -70,6 +70,8 @@ int main(const int argc, char* const argv[])
 		return EXIT_FAILURE;
 	}
 	
+	int result = getPreviousPrime(n); // find largest prime smaller than n
+	
 	printf("[worker] number is %d\n", n);
 	
 	printf("[worker] getting shared memory\n");
@@ -96,7 +98,7 @@ int main(const int argc, char* const argv[])
 	}
 	
 	printf("[worker] finding smaller prime\n");
-	*shm = getPreviousPrime(n); // find largest prime smaller than n
+	*shm = result; // set found prime
 	
 	printf("[worker] waiting for shared memory to be zero\n");
 	while (*shm != 0) // wait until shared memory integer is zero
