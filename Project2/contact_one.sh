@@ -11,7 +11,7 @@
 # Define and store a HERE document in the doc variable.
 IFS='' read -r -d '' doc <<'myContactList'
 Elon Musk, 1 Crater Mars, elon.musk@dankest.com, 6969696969
-Jared Diehl, 7259 Gadwall Way, jared@jaredible.net, 3146291836
+Jared Diehl, 6969 IDK Way, jared@jared.net, 3146669999
 John Doe, 69 Street, john@doe.com, 3149116969
 Jane Dough, 911 Avenue, jane@dough.us, 3149119696
 Donald Trump, 911 Street, donald@trump.merica 0000000000
